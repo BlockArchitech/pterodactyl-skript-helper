@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:pterodactyl-skript-helper.helloWorld"
+        "onCommand:pterodactyl-skript-helper.activate"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "pterodactyl-skript-helper.helloWorld",
-            "title": "Hello World"
+            "command": "pterodactyl-skript-helper.activate",
+            "title": "Activate Pterodactyl Skript Helper"
 
 		}]
 	},
